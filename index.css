@@ -742,10 +742,14 @@ footer .conter-footer .end{
 
 
 
+.viv{
+  display: none;
+}
 
 
-
-
+.ppp{
+  display: none;
+}
 
 
 
@@ -765,10 +769,16 @@ html{
 .font{
   display: none;
 }
+.ppp{
+  display: flex;
+  color: #ffffff;
+  text-decoration: none;
+}
 
 
-
-
+.viv{
+  display: block;
+}
 
 .home .container-images {
     display: none;
