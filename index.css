@@ -1183,3 +1183,164 @@ h3{
 
 }
 
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 340px) {
+  :root{
+      --padding: 1.5rem;
+}
+
+html{
+  font-size: 13px;
+}
+
+
+.font{
+display: none;
+}
+.ppp{
+display: flex;
+color: #ffffff;
+text-decoration: none;
+}
+
+
+.viv{
+display: block;
+}
+
+.home .container-images {
+  display: none;
+}
+.btn{
+
+  display: none;
+}
+h6{
+  font-size: 18px;
+}
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 82px;
+  padding-top: 0;
+  background-color: var(--bgColor-1);
+  border-bottom: 1px solid var(--bgColor-2);
+  z-index: 100;
+}
+
+
+
+
+#additionalContent {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+
+
+
+
+
+nav ul {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vw;
+  background: rgb(31, 30, 30);
+}
+
+nav ul.is-active{
+  display: block;
+  background-color: rgb(37, 37, 37);
+  
+}
+
+nav ul li{
+  display: block;
+  text-align: center;
+  margin: 50px;
+}
+
+
+.container-texts{
+  bottom: 0;
+}
+.social{
+  margin-top: 70px;
+}
+h3{
+  margin-top: 70px;
+}
+#menu{
+  display: block;
+  left: -12px;
+}
+
+
+h1{
+  font-size: 24px;
+}
+
+.about .container-imgses{
+  display: none;
+}
+.about .container-texts{
+  width: 100%;
+}
+
+.box{
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skills .container-skills{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
